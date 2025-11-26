@@ -55,6 +55,10 @@ cover/
 *.mo
 *.pot
 
+# Ignore artifacts like pickle files
+artifacts/
+*.pkl 
+
 # Django stuff:
 *.log
 local_settings.py
